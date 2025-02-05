@@ -7,17 +7,18 @@
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/img/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
 
     <header>
 
-        <div id="header_content">
+        <div id="header_content" class="flex">
 
             <div id="titulo">
 
-            <h2>Rebeka Lima</h2>
+            <h1>Rebeka Lima</h1>
 
             </div>
 
@@ -43,15 +44,17 @@
 
     <main>
 
-        <section id="about">
+        <section id="about" class="flex_start">
 
             <h2>Sobre mim</h2>
 
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
 
                 <img
                     src="./assets/img/user_01.svg"
                     alt="Foto do criador desse conteúdo"
+
+                    class="img_profile"
                     />
 
                 <article id="sobre_texto">
@@ -81,20 +84,20 @@
 
     </main>
 
-    <footer>
+    <footer class ="flex">
 
         <section id="redes_sociais">
 
             <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn"/>
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
 
             <a href="">
-                <img src="assets/img/github.svg" alt="Github"/>
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
 
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram"/>
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
             </a>
 
         </section>
