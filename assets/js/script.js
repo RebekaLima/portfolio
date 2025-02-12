@@ -33,7 +33,7 @@ formulario.addEventListener('submit', function(event) {
       txtSubject.innerHTML = 'O Assunto deve ter no minimo 5 caracteres.';
       campoSubject.focus();
       return;
-    }else{
+    }else{ 
       txtSubject.innerHTML = '';
     }
 
